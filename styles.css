@@ -1,0 +1,55 @@
+.weatherheader{
+    display: flex;
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.DaysForecast{
+    display: flex;
+    background-color: white;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+   justify-content: center;
+}
+.search{
+    display: flex;
+    position:relative;
+    left: 50px;
+    top: 200px;
+}
+#previous{
+    color: black;
+    display: flex;
+    position:relative;
+    top: 25px;
+}
+#SearchText{
+    display: flex;
+    position:relative;
+    bottom: 30px;
+    left: 18px;
+    font-size: 30px;
+    font: bold;
+}
+#search, #city{
+    display: flex;
+    position: relative;
+    top: 35px;
+    right: 200px;
+}
+#previous{
+    display: flex;
+    position: relative;
+    top: 35px;
+    right: 200px;
+}
